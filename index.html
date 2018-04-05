@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center align-items-center wrapper">
+      <div class="logo-img">
+        <object type="image/svg+xml" id="logo" data="logo.svg"></object>
+      </div>
+      <div class="input-links">
+        <button onclick="start()" class="btn-start">ИСИТ МОЩЬ</button>        
+        <span class="random-number"></span>
+        <form action="fortuna.php" method="POST" class="submit-number">
+          <input type="text" hidden="hidden" name="result" class="submit-number__result">
+        </form>
+      </div>
+    </div>   
+  </div>
+  <script src="js/script.js"></script>
+  <noscript>Включите JavaScript, плез</noscript>
+</body>
+</html>
